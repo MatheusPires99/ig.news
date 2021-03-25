@@ -21,6 +21,10 @@ export const Content = styled.div`
       margin-left: 5rem;
       height: 5rem;
     }
+
+    button {
+      margin-left: auto;
+    }
   `}
 `;
 

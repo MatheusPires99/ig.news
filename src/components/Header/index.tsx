@@ -1,3 +1,4 @@
+import { SignInButton } from '../SignInButton';
 import * as S from './styles';
 
 export function Header() {
@@ -14,6 +15,8 @@ export function Header() {
             Posts
           </S.NavLink>
         </nav>
+
+        <SignInButton />
       </S.Content>
     </S.Container>
   );
