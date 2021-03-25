@@ -12,11 +12,11 @@ export default createGlobalStyle`
     html {
       height: 100%;
 
-      @media (min-width: 1000px) {
+      @media (max-width: 1080px) {
         font-size: 93.75%;
       }
 
-      @media (min-width: 720px) {
+      @media (max-width: 720px) {
         font-size: 87.5%;
       }
     }
