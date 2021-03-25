@@ -24,11 +24,11 @@ export const Container = styled.button`
       width: 20px;
       height: 20px;
 
-      &:first-child {
+      &:nth-child(1) {
         margin-right: 1rem;
       }
 
-      &:last-child {
+      &:nth-child(2) {
         margin-left: 1rem;
       }
     }

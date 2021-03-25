@@ -1,4 +1,5 @@
 import { AppProps } from 'next/app';
+import { Provider as NextAuthProvider } from 'next-auth/client';
 
 import { ThemeProvider } from 'styled-components';
 
@@ -11,8 +12,10 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
 
-      <Header />
-      <Component {...pageProps} />
+      <NextAuthProvider session={pageProps.session}>
+        <Header />
+        <Component {...pageProps} />
+      </NextAuthProvider>
     </ThemeProvider>
   );
 }
