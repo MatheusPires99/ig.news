@@ -1,4 +1,5 @@
-import { SignInButton } from '../SignInButton';
+import { SignInButton } from '..';
+
 import * as S from './styles';
 
 export function Header() {
