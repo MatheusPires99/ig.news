@@ -1,7 +1,6 @@
 import { GetStaticProps } from 'next';
-import Head from 'next/head';
 
-import { SubscribeButton } from '../components';
+import { MetaTags, SubscribeButton } from '../components';
 import { stripe } from '../services/stripe';
 import * as S from '../styles/pages/Home';
 
@@ -15,9 +14,7 @@ type HomeProps = {
 export default function Home({ product }: HomeProps) {
   return (
     <>
-      <Head>
-        <title>Home | ig.news</title>
-      </Head>
+      <MetaTags title="Home" />
 
       <S.Container>
         <S.Hero>
