@@ -30,6 +30,7 @@ export const Content = styled.div`
 
 export const NavLink = styled.a<{ isActive: boolean }>`
   ${({ theme, isActive }) => css`
+    cursor: pointer;
     display: inline-block;
     position: relative;
     padding: 0 0.5rem;
