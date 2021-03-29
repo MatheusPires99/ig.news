@@ -28,7 +28,7 @@ export const Content = styled.div`
 
       time {
         font-size: 1rem;
-        color: ${theme.colors.grey};
+        color: ${theme.colors.gray};
 
         display: flex;
         align-items: center;
@@ -44,7 +44,7 @@ export const Content = styled.div`
       }
 
       p {
-        color: ${theme.colors.grey};
+        color: ${theme.colors.gray};
         margin-top: 0.5rem;
         line-height: 1.625rem;
       }
