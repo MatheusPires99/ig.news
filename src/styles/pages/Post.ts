@@ -12,6 +12,7 @@ export const Post = styled.article`
   ${({ theme }) => css`
     max-width: 720px;
     margin: 5rem auto 0;
+    padding-bottom: 5rem;
 
     h1 {
       font-size: 3.5rem;

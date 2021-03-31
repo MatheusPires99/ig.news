@@ -12,6 +12,7 @@ export const Content = styled.div`
   ${({ theme }) => css`
     max-width: 720px;
     margin: 5rem auto 0;
+    padding-bottom: 5rem;
 
     a {
       display: block;
