@@ -12,7 +12,11 @@ export function Header() {
   return (
     <S.Container>
       <S.Content>
-        <img src="/images/logo.svg" alt="ig.news" />
+        <Link href={navLinks[0].path}>
+          <a>
+            <img src="/images/logo.svg" alt="ig.news" />
+          </a>
+        </Link>
 
         <nav>
           {navLinks.map(navLink => (
