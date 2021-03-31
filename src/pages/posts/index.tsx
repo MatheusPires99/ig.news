@@ -27,7 +27,7 @@ export default function Posts({ posts }: PostsProps) {
       <S.Container>
         <S.Content>
           {posts.map(post => (
-            <Link href={`/posts/${post.slug}`}>
+            <Link href={`/posts/${post.slug}`} key={post.slug}>
               <a key={post.slug}>
                 <time>{post.updatedAt}</time>
                 <strong>{post.title}</strong>
