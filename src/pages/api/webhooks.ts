@@ -83,7 +83,7 @@ export default async (request: NextApiRequest, response: NextApiResponse) => {
       }
     }
 
-    // response.json({ received: true });
+    return response.json({ received: true });
   }
 
   response.setHeader('Allow', 'POST');
